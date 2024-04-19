@@ -1,0 +1,16 @@
+.navList {
+	font-size: 20px;
+	display: flex;
+	gap: 60px;
+	align-items: center;
+	a {
+		&:hover {
+			color: rgb(120, 117, 254);
+		}
+	}
+}
+
+.navImg {
+	display: flex;
+	gap: 30px;
+}
