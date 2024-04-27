@@ -1,0 +1,21 @@
+.Btn {
+	border: 1px solid rgb(120, 117, 254);
+	color: rgb(120, 117, 254);
+	font-size: 20px;
+	line-height: 23px;
+	padding: 23.5px 89.5px;
+
+	&:hover {
+		background-color: rgb(120, 117, 254);
+		color: white;
+	}
+	&:focus {
+		background-color: rgb(218, 217, 251);
+		color: rgb(120, 117, 254);
+	}
+
+	&:active {
+		background-color: rgb(73, 70, 180);
+		color: white;
+	}
+}
