@@ -14,7 +14,7 @@ export const Hero = () => {
 					<GlobBtn>Каталог</GlobBtn>
 				</div>
 
-				<img src='/heroImg.png' alt='totalImg' className={styles.heroImg} />
+				<div className={styles.heroImg} />
 			</div>
 		</Container>
 	)

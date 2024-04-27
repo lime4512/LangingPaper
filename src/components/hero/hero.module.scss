@@ -4,7 +4,7 @@
 }
 
 .heroContent {
-	padding: 130px 0;
+	padding: 110px 0;
 	width: 444px;
 }
 .heroTitle {
@@ -18,10 +18,9 @@
 	color: rgb(133, 133, 155);
 }
 
-
-
 .heroImg {
-	margin-top: 5px;
-
-	clip-path: inset(0px 0px 620px 0px);
+	height: 620px;
+	width: 540px;
+	background-image: url('/heroImg.png');
+	background-size: cover;
 }
