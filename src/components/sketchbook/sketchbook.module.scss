@@ -1,0 +1,28 @@
+.sketch_container {
+	margin-top: 90px;
+}
+
+.sketch_content {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+
+	.sketch_total_text {
+		margin-top: 24px;
+		max-width: 350px;
+
+		.sketch_title {
+			font-family: 400;
+			font-size: 40px;
+			color: rgb(102, 102, 102);
+			line-height: 100%;
+			margin-bottom: 10px;
+		}
+
+		.sketch_text {
+			color: rgb(133, 133, 155);
+			line-height: 170%;
+			margin-bottom: 30px;
+		}
+	}
+}

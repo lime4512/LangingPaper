@@ -1,0 +1,16 @@
+.brand_content {
+	background-color: rgb(235, 235, 235);
+	padding: 90px 0;
+
+	.brand_list {
+		display: flex;
+		justify-content: center;
+		gap: 30px;
+		align-items: center;
+
+		.brand_item {
+			max-width: 255px;
+			max-height: 135px;
+		}
+	}
+}
